@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Simple Calculator</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="calculatorForm">
+          <div class="form-group">
+            <label for="num1">Number 1:</label>
+            <input type="text" class="form-control" id="num1" required>
+          </div>
+          <div class="form-group">
+            <label for="num2">Number 2:</label>
+            <input type="text" class="form-control" id="num2" required>
+          </div>
+          <div class="form-group">
+            <label for="operation">Operation:</label>
+            <select class="form-control" id="operation" required>
+              <option value="">Select Operation</option>
+              <option value="+">Addition (+)</option>
+              <option value="-">Subtraction (-)</option>
+              <option value="*">Multiplication (*)</option>
+              <option value="/">Division (/)</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-primary btn-block" onclick="calculate()">Calculate</button>
+        </form>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6">
+        <div id="result" class="alert text-center d-none" role="alert"></div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
