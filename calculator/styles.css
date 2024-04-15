@@ -1,0 +1,12 @@
+.container {
+    margin-top: 50px;
+    
+  }
+  
+  
+  #result {
+    background-color: #ffc107; /* Yellow color */
+    color: #000; /* Black text color */
+    border-color: #ffc107; /* Yellow border color */
+  }
+  
