@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+  }
+  .profile-card h2 {
+    color: #808080;  
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    flex: 1;
+  }
+  
+  .stat span {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .follow-btn,
+  .hire-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .follow-btn:hover,
+  .hire-btn:hover {
+    background-color: #0056b3;
+  }
+  
